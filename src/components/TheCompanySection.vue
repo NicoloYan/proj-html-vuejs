@@ -78,7 +78,7 @@ export default {
 .bg {
     width: 50%;
     img {
-        height: 550px;
+        height: 601px;
     }
 }
 .flex {

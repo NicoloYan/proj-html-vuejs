@@ -3,6 +3,7 @@
         <PageJumbotron />
         <CardSection />
         <TheCompanySection />
+        <ProjectsSection />
     </main>
 </template>
 
@@ -10,12 +11,14 @@
 import PageJumbotron from './PageJumbotron.vue'
 import CardSection from './CardSection.vue'
 import TheCompanySection from './TheCompanySection.vue'
+import ProjectsSection from './ProjectsSection.vue'
 export default {
     name: 'PageMain',
     components: {
         PageJumbotron,
         CardSection,
-        TheCompanySection
+        TheCompanySection,
+        ProjectsSection
     }
 }
 </script>
