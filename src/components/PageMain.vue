@@ -5,6 +5,7 @@
         <TheCompanySection />
         <ProjectsSection />
         <ProcessManagementSection />
+        <PartnerFeedbacks />
     </main>
 </template>
 
@@ -14,6 +15,7 @@ import CardSection from './CardSection.vue'
 import TheCompanySection from './TheCompanySection.vue'
 import ProjectsSection from './ProjectsSection.vue'
 import ProcessManagementSection from './ProcessManagementSection.vue'
+import PartnerFeedbacks from './PartnerFeedbacks.vue'
 export default {
     name: 'PageMain',
     components: {
@@ -21,7 +23,8 @@ export default {
         CardSection,
         TheCompanySection,
         ProjectsSection,
-        ProcessManagementSection
+        ProcessManagementSection,
+        PartnerFeedbacks
     }
 }
 </script>
