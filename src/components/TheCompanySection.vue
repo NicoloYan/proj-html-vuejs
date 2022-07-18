@@ -1,7 +1,7 @@
 <template>
     <div class="flex">
         <div class="info_area">
-            <span class="about">
+            <span class="heading">
                 ABOUT THE NETWORK
             </span>
             <h2>
@@ -89,10 +89,6 @@ export default {
     background-color: #daeced;
     padding: 10px;
     border-radius: 5%;
-}
-.about {
-    color: #00a5a5;
-    font-weight: 800;
 }
 h2 {
     font-size: 30px;

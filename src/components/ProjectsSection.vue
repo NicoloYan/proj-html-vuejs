@@ -78,7 +78,6 @@ section {
     background-color: black;
 }
 .heading {
-    color: #00a5a5;
     display: block;
     margin-bottom: 40px;
 }

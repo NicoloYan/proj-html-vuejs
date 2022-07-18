@@ -4,7 +4,7 @@
 
             <!-- SLOGAN -->
             <div class="slogan">
-                <span class="hr">
+                <span class="heading">
                     HUMAN RESOURCES
                 </span>
                 <h1>
@@ -59,8 +59,5 @@ h1 {
     gap: 30px;
     width: 60%;
     padding: 150px 0;
-}
-.hr {
-    color: #00a5a5;
 }
 </style>
