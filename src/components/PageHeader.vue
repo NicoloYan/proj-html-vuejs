@@ -25,6 +25,37 @@
                 </a>
             </div>
         </div>
+        <div class="flex_space_between align container65">
+                <div class="nex_gen_logo">
+                    <img src="https://nexgen.codings.dev/wp-content/uploads/2021/03/logo.svg" alt="nex gen logo">
+                </div>
+                <!-- NAVBAR -->
+                <nav class="flex_space_between">
+                    <!-- DA RIMPIAZZARE CON CICLO FOR -->
+                    <div>
+                        HOME
+                    </div>
+                    <div>
+                        ABOUT
+                    </div>
+                    <div>
+                        PROJECTS
+                    </div>
+                    <div>
+                        PROCESS
+                    </div>
+                    <div>
+                        TESTIMONIALS
+                    </div>
+                    <div>
+                        <!-- ICONA USER-->
+                        ICONA
+                    </div>
+                    <div class="get_in_touch_btn">
+                        HOME
+                    </div>
+                </nav>
+            </div>
     </header>
 </template>
 
@@ -45,6 +76,15 @@ header {
     gap: 20px;
 }
 span {
-    margin-left: 5px;
+    margin-left: 10px;
+}
+.align {
+    align-items: center;
+    padding-top: 20px;
+    background-color: transparent;
+}
+.nex_gen_logo {
+    width: 120px;
+    height: 41.95px;
 }
 </style>

@@ -6,9 +6,9 @@
                     <!-- ICONA ORIGINALE NON TROVATA -->
                     <i class="fa-solid fa-user-group"></i>
                 </div>
-                <h2>
+                <h3>
                     Human Capital
-                </h2>
+                </h3>
                 <p>
                     Humanizing business: Harness the power of technology to improve the way people work.
                 </p>
@@ -18,9 +18,9 @@
                     <!-- ICONA ORIGINALE NON TROVATA -->
                     <i class="fa-solid fa-heart-pulse"></i>
                 </div>
-                <h2>
+                <h3>
                     Core Business
-                </h2>
+                </h3>
                 <p>
                     It takes innovative approaches to tranform, modernize, and run existing platforms.
                 </p>
@@ -30,9 +30,9 @@
                     <!-- ICONA ORIGINALE NON TROVATA -->
                     <i class="fa-solid fa-gauge-high"></i>
                 </div>
-                <h2>
+                <h3>
                     Performance
-                </h2>
+                </h3>
                 <p>
                     Achieving maximum impact and value from investments in finance and supply chain.
                 </p>
@@ -62,6 +62,7 @@ section {
     width: 30%;
     padding: 50px;
     background-color: white;
+    border-radius: 5%;
 }
 .icon_container {
     background-color: #daeced;
