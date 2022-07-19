@@ -69,7 +69,7 @@ h2 {
     margin-top: 60px;
     width: calc((100% / 3) - 20px);
     background-color: white;
-    padding: 30px;
+    padding: 40px 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;

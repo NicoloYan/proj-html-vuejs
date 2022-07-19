@@ -12,7 +12,7 @@
                 </div>
                 <div>
                     <i class="fa-solid fa-envelope"></i>
-                    <span>+1 (305) 1234-5678</span>
+                    <span>hello@example.com</span>
                 </div>
                 <a>
                     <i class="fa-brands fa-facebook-f"></i>
@@ -111,7 +111,7 @@ span {
 }
 .get_in_touch_btn {
     background-color: #00a5a5;
-    padding: 0 20px;
+    padding: 0 25px;
     border-radius: 5px;
 }
 ul {
