@@ -40,7 +40,7 @@
                     <div class="icon_container">
                         <i :class="info.icon"></i>
                     </div>
-                    
+
                     {{ info.text }}
 
                 </div>
@@ -82,6 +82,9 @@ footer {
     color: white;
     padding: 100px 0;
     display: flex;
+}
+h2 {
+    font-size: 50px;
 }
 .touch {
     padding: 10px;

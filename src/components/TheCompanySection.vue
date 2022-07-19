@@ -78,11 +78,12 @@ export default {
 .bg {
     width: 50%;
     img {
-        height: 601px;
+        height: 662px;
     }
 }
 .flex {
     display: flex;
+    position: relative;
 }
 .the {
     color: #00a5a5;
@@ -96,6 +97,7 @@ h2 {
 }
 .card {
     margin-top: 20px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -103,18 +105,18 @@ h2 {
 }
 .number {
     color: #00a5a5;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 900;
     margin-left: 15px;
 }
 .get_in_touch {
     color: white;
     background-color: #00a5a5;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 5%;
 }
 .read_more {
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin-left: 15px;
     color: #00a5a5;
     border: 1px solid #00a5a5;

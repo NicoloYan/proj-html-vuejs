@@ -121,12 +121,14 @@ h2 {
     background-color: #daeced;
     color: #068283;
     z-index: 10;
+    font-weight: 900;
+    font-size: 20px;
 }
 .blue_line {
     height: 5px;
     background-color: #daeced;
     position: absolute;
-    top: 355px;
+    top: 360px;
     width: 100%;
 }
 </style>

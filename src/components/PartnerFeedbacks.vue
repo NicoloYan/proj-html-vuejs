@@ -63,10 +63,10 @@ h2 {
 }
 .info {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
 }
 .card {
-    margin-top: 40px;
+    margin-top: 60px;
     width: calc((100% / 3) - 20px);
     background-color: white;
     padding: 30px;

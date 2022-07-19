@@ -31,29 +31,18 @@
                 </div>
                 <!-- NAVBAR -->
                 <nav class="flex_space_between">
-                    <!-- DA RIMPIAZZARE CON CICLO FOR -->
+
+                    <ul>
+                        <li v-for="link, index in navLinks" :key="index" :class="{ 'active': link.active }">
+                            <a :href="link.url">{{ link.text }}</a>
+                        </li>
+                    </ul>
                     <div>
-                        HOME
+                        <i class="fa-regular fa-user"></i>
                     </div>
-                    <div>
-                        ABOUT
-                    </div>
-                    <div>
-                        PROJECTS
-                    </div>
-                    <div>
-                        PROCESS
-                    </div>
-                    <div>
-                        TESTIMONIALS
-                    </div>
-                    <div>
-                        <!-- ICONA USER-->
-                        ICONA
-                    </div>
-                    <div class="get_in_touch_btn">
-                        HOME
-                    </div>
+                    <a href="#" class="get_in_touch_btn">
+                        GET IN TOUCH
+                    </a>
                 </nav>
             </div>
     </header>
@@ -61,7 +50,40 @@
 
 <script>
 export default {
-    name: 'PageHeader'
+    name: 'PageHeader',
+    data() {
+        return {
+            navLinks: [
+                {
+                    text: 'HOME',
+                    url: '#',
+                    active: false
+                },
+                {
+                    text: 'ABOUT',
+                    url: '#',
+                    active: false
+                },
+                {
+                    text: 'PROJECTS',
+                    url: '#',
+                    active: false
+                },
+                {
+                    text: 'PROCESS',
+                    url: '#',
+                    active: true
+                },
+                {
+                    text: 'TESTIMONIALS',
+                    url: '#',
+                    active: false
+                }
+                
+                
+            ]
+        }
+    }
 }
 </script>
 
@@ -86,5 +108,17 @@ span {
 .nex_gen_logo {
     width: 120px;
     height: 41.95px;
+}
+.get_in_touch_btn {
+    background-color: #00a5a5;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+.active {
+    color: #00a5a5;
 }
 </style>

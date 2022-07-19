@@ -63,6 +63,28 @@
 
             </div>
         </div>
+        <div class="dots">
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -121,5 +143,20 @@ h2 {
     top: 220px;
     font-size: 20px;
     font-weight: 800;
+}
+.dots {
+    position: absolute;
+    top: 260%;
+    left: 718px;
+    z-index: 10;
+}
+.dots_x_3 {
+    display: flex;
+    i {
+        font-size: 30px;
+        color: rgba($color: #00a5a5, $alpha: 0.3);
+        margin: 0 1px;
+        height: 12px;
+    }
 }
 </style>

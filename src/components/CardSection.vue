@@ -38,7 +38,28 @@
                 </p>
             </div>
         </div>
-
+        <div class="dots">
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="dots_x_3">
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -51,6 +72,7 @@ export default {
 <style lang="scss" scoped>
 section {
     background-color: #eef4ed;
+    position: relative;
 }
 .container65 {
     padding: 100px 0;
@@ -60,7 +82,7 @@ section {
     flex-direction: column;
     gap: 20px;
     width: 30%;
-    padding: 50px;
+    padding: 50px 30px;
     background-color: white;
     border-radius: 5%;
 }
@@ -72,5 +94,23 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    i {
+        color: #00a5a5;
+    }
+}
+.dots {
+    position: absolute;
+    bottom: -16px;
+    left: 718px;
+    z-index: 10;
+}
+.dots_x_3 {
+    display: flex;
+    i {
+        font-size: 30px;
+        color: rgba($color: #00a5a5, $alpha: 0.3);
+        margin: 0 1px;
+        height: 12px;
+    }
 }
 </style>

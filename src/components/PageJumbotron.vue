@@ -8,8 +8,9 @@
                     HUMAN RESOURCES
                 </span>
                 <h1>
-                    GET MORE PRODUCTIVITY
+                    Get More Productivity
                 </h1>
+                <div class="blue_line"></div>
                 <p>
                     Planning, recruitment and selection process and performance evaluation of employees.
                 </p>
@@ -43,21 +44,37 @@ export default {
 }
 .get_in_touch_btn {
     background-color: #00a5a5;
-    padding: 5px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 .read_more_btn {
     margin-left: 15px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border: 1px solid #00a5a5;
+    border-radius: 5px;
 }
 h1 {
-    font-size: 50px;
+    font-size: 70px;
+    position: relative;
+    z-index: 10;
+}
+.blue_line {
+    background-color: #266466;
+    height: 25px;
+    width: 385px;
+    bottom: 285px;
+    left: 268px;
+    position: absolute;
+
 }
 .slogan {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 60%;
-    padding: 150px 0;
+    padding: 175px 0;
+}
+.slogan_btns {
+    margin-top: 20px;
 }
 </style>
