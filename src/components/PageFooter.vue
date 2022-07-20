@@ -33,7 +33,7 @@
                 <p>
                     Praesent diam lacus dapibus sed imperdiet consectetur.
                 </p>
-                <div v-for="info, index in contactInfo" 
+                <div v-for="info, index in infos" 
                     :key="index" 
                     class="details">
 
@@ -55,24 +55,7 @@
 <script>
 export default {
     name: 'PageFooter',
-    data() {
-        return {
-            contactInfo: [
-                {
-                    icon: "fa-solid fa-phone",
-                    text: '1 (305) 1234-5678'
-                },
-                {
-                    icon: "fa-solid fa-envelope",
-                    text: 'hello@example.com'
-                },
-                {
-                    icon: "fa-solid fa-location-dot",
-                    text: 'Main Avenue, 987'
-                }
-            ]
-        }
-    }
+    props: ['infos']
 }
 </script>
 

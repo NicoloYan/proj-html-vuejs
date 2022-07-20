@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <PageHeader />
+    <PageHeader :links="navLinks"/>
     <PageMain />
-    <PageFooter />
+    <PageFooter :infos="contactInfo"/>
   </div>
 </template>
 
@@ -17,7 +17,58 @@ export default {
     PageHeader,
     PageMain,
     PageFooter
-  }
+  },
+  data() {
+        return {
+            navLinks: [
+                {
+                    text: 'HOME',
+                    url: '#',
+                    active: false
+                },
+                {
+                    text: 'ABOUT',
+                    url: '#',
+                    active: false
+                },
+                {
+                    text: 'PROJECTS',
+                    url: '#',
+                    active: false
+                },
+                {
+                    text: 'PROCESS',
+                    url: '#',
+                    active: true
+                },
+                {
+                    text: 'TESTIMONIALS',
+                    url: '#',
+                    active: false
+                }
+                
+                
+            ],
+            contactInfo: [
+                {
+                    icon: "fa-solid fa-phone",
+                    text: '1 (305) 1234-5678'
+                },
+                {
+                    icon: "fa-solid fa-envelope",
+                    text: 'hello@example.com'
+                },
+                {
+                    icon: "fa-solid fa-location-dot",
+                    text: 'Main Avenue, 987'
+                }
+            ]
+        }
+    },
+   props: {
+        links: Array,
+        infos: Array
+    },
 }
 </script>
 

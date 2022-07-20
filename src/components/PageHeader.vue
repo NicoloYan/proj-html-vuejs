@@ -33,7 +33,7 @@
                 <nav class="flex_space_between">
 
                     <ul>
-                        <li v-for="link, index in navLinks" :key="index" :class="{ 'active': link.active }">
+                        <li v-for="link, index in links" :key="index" :class="{ 'active': link.active }">
                             <a :href="link.url">{{ link.text }}</a>
                         </li>
                     </ul>
@@ -51,39 +51,7 @@
 <script>
 export default {
     name: 'PageHeader',
-    data() {
-        return {
-            navLinks: [
-                {
-                    text: 'HOME',
-                    url: '#',
-                    active: false
-                },
-                {
-                    text: 'ABOUT',
-                    url: '#',
-                    active: false
-                },
-                {
-                    text: 'PROJECTS',
-                    url: '#',
-                    active: false
-                },
-                {
-                    text: 'PROCESS',
-                    url: '#',
-                    active: true
-                },
-                {
-                    text: 'TESTIMONIALS',
-                    url: '#',
-                    active: false
-                }
-                
-                
-            ]
-        }
-    }
+    props: ['links']
 }
 </script>
 
